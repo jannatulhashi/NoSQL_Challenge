@@ -8,8 +8,11 @@ The UK Food Standards Agency evaluates various establishments across the United 
 I'll use **NoSQL_setup_starter.ipynb** for this section of the challenge.
 
 1: I'll import the data provided in the **establishments.json** file from my Terminal. Name the database **uk_food** and the collection **establishments**. Copy the text I used to import my data from my Terminal to a markdown cell in my notebook.
+
 2: Within my notebook, I'll import the libraries I need: PyMongo and Pretty Print **(pprint)**.
+
 3: I"ll create an instance of the Mongo Client.
+
 4: I'll confirm that I created the database and loaded the data properly:
 
   - List the databases I have in MongoDB. Confirm that **uk_food** is listed.
@@ -28,10 +31,16 @@ The magazine editors have some requested modifications for the database before I
 ![](Image.png)
 
 2: I"ll find the **BusinessTypeID** for **"Restaurant/Cafe/Canteen"** and return only the **BusinessTypeID** and **BusinessType fields**.
+
 3: Then I'll update the new restaurant with the **BusinessTypeID** I found.
-4: The magazine is not interested in any establishments in Dover, so I'll check how many documents contain the Dover Local Authority. Then, I'll remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
+
+4: The magazine is not interested in any establishments in Dover, so I'll check how many documents contain the Dover Local Authority.
+Then, I'll remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
+
 5: Some of the number values are stored as strings, when they should be stored as numbers.
+
    1: I'll use **update_many** to convert **latitude** and **longitude** to decimal numbers.
+   
    2: I'll use **update_many** to convert **RatingValue** to integer numbers.
 
 ### Part 3: Exploratory Analysis
@@ -51,6 +60,7 @@ Unless otherwise stated, for each question:
 - Then I"ll convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
 
 1: Which establishments have a hygiene score equal to 20?
+
 2: Which establishments in London have a RatingValue greater than or equal to 4?
 
 **Hint:** The London Local Authority has a longer name than "London" so I will need to use $regex as part of my search.
