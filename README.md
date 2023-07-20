@@ -49,7 +49,8 @@ I"ll use **NoSQL_analysis_starter.ipynb** for this section of the challenge.
 Some notes to be aware of while I am exploring the dataset:
 
 - **RatingValue** refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.
-    **Note:** This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. I will coerce non-numeric values to nulls during the database setup before converting ratings to integers.
+
+  **Note:** This field also includes non-numeric values such as 'Pass', where 'Pass' means that the establishment passed their inspection but isn't given a number rating. I will coerce non-numeric values to nulls during the database setup before converting ratings to integers.
 - The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. This means, the higher the value, the worse the establishment is in these areas.
 
 I"ll use the following questions to explore the database, and find the answers, so I can provide them to the magazine editors.
