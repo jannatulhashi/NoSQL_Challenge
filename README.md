@@ -1,6 +1,8 @@
 # NoSQL_Challenge
 Analyzing UK Food Standards Agency's hygiene ratings data to guide Eat Safe, Love's food magazine journalists and critics in selecting establishments for future articles.
 
+![](food_standards_agency.png)
+
 ## Instructions
 The UK Food Standards Agency evaluates various establishments across the United Kingdom and gives them a food hygiene rating. I've been contracted by the editors of a food magazine, Eat Safe, Love, to evaluate some of the rating data in order to help their journalists and food critics decide where to focus future articles.
 
