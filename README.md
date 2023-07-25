@@ -1,4 +1,4 @@
-# NoSQL_Challenge
+# UK Food Hygiene Rating Analysis
 Analyzing UK Food Standards Agency's hygiene ratings data to guide Eat Safe, Love's food magazine journalists and critics in selecting establishments for future articles.
 
 ![](food_standards_agency.png)
